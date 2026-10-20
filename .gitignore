@@ -1,0 +1,43 @@
+# Python / environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.junie/
+.vscode/
+
+# Secrets
+.env
+demo/.env
+
+# Datasets (download separately, see README)
+data_set/
+data_set_genome/
+embeddings_cache/
+
+# Generated results, figures and checkpoints
+Rezultate_Licenta_*/
+Grafice_Licenta/
+figs/
+*.pt
+*.pth
+*.npy
+*.npz
+*.parquet
+*.bak*
+building_quality_report.csv
+comparatie_sota_v10.csv
+results_patchtst_v10.json
+perhouse_results.json
+cladiri_de_adaugat.txt
+figs_template_text.py
+
+# Demo platform: generated data and build output
+demo/data/
+demo/HANDOFF.md
+demo/frontend/node_modules/
+demo/frontend/dist/

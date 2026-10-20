@@ -1,0 +1,11 @@
+# Notebook (training + evaluation). Install a CUDA build of torch for GPU training.
+torch
+transformers
+numpy
+pandas
+scikit-learn
+matplotlib
+holidays
+umap-learn
+plotly
+pyarrow
